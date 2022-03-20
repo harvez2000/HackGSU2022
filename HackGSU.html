@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/styling.css">
+        <style>
+            .hidden{
+                opacity: 0;
+            }
+        </style> 
+        <script type="text/javascript">
+            function myFun(){
+                document.getElementByID("g-recaptcha").style.display = "none";
+          }
+        </script>
+        <script>
+            window.onload = function myFun(){
+                document.getElementByID("g-recaptcha").style.display = "none";
+            }
+        </script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+     </head>
+    <body>
+        <form action="?" method="POST">
+            <div class="hidden">
+                <div class="g-recaptcha" data-sitekey="6LekyfQeAAAAABGEJMIZkc4kjHfFu0gu9UCo530C" data-callback="callback"></div>
+                <br/>
+                <input type="button" value="Submit" id="button1" disabled="disabled">
+                <script>
+                    function callback(){
+                        document.getElementById("button1").disabled = false;
+                        document.getElementById('button1').onclick =alert("Button Clicked - Bot Detected!");
+                    }
+                </script>
+            </div>
+               
+        </form>
+    <div>
+        <h1 class = "name"> TESLA MODEL S </h1>
+        <form>
+            <p class = orderButton>  
+                <input type= "button" value = "ORDER NOW">
+            </p>
+        </form>
+    </div>
+    </body>
+</html>

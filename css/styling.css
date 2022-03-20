@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+head, body {
+    display: inline-block;
+    height: 100vh;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+body {
+    position: relative;
+    background-image: url("/images/teslaMS.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main {
+    width: auto;
+    height: 100vh;
+}
+.orderButton {
+    position: relative; 
+    text-align: center;
+    color: darkgray;
+    border-radius: 50%;
+    margin: 10px 3px;
+    left: 660px;
+}
+.name {
+    position: relative;
+    left: 225%
+}
