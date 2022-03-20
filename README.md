@@ -1,4 +1,5 @@
 # ReBotta
+![This is an image](images/Picture1.jpg)
 
 ## Project Description
 A bot prevention security solution for website owners to maintain the integrity of the user experience.
